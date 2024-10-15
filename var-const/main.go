@@ -22,6 +22,6 @@ func main() {
 func hello() {
 	lastName := "Giovanini"
 
-	fmt.Print("sobre nome: ", lastName, " idade: ", age)
+	fmt.Printf("sobre nome: %v idade: %v", lastName, age)
 
 }
